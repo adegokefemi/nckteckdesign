@@ -1,0 +1,15 @@
+.purchase{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: white;
+    color: black;
+}
+
+.purchase div {
+    justify-content: space-between;
+    padding: 6px 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}

@@ -1,0 +1,13 @@
+.Input {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.Input input {
+    padding: 10px;
+    height: 40px;
+    background-color: #eee;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}

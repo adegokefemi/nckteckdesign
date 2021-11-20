@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family:sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+.px-3, .pr-3, .p-3 {
+  padding-right: 15px;
+}
+.px-3, .pl-3, .p-3 {
+  padding-left: 15px;
+}
+.py-3, .pt-3, .p-3 {
+  padding-top: 15px;
+}
+.py-3, .pb-3, .p-3 {
+  padding-bottom: 15px;
+}
+
+.m-0 {
+  margin: 0;
+}
+.hr {
+  margin: auto;
+  max-width: 1200px;
+  height: 0;
+  border-top: 1px;
+}
+.flex {
+  display: flex;
+}
+
+.flex.flex-column {
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
